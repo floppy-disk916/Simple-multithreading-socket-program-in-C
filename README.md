@@ -8,12 +8,12 @@ So yeah, still had some flaws here and there for now.
 Not a production grade, though
 
 ### Three First General Phases :
-1. It will setup the windows socket API with `WSAStartup()`
-2. It will create a socket with `socket()`
-3. It will setup the server `sockaddr` struct member (`sin_family`, `sin_addr.s_addr`, `sin_port`)
+1. Setting up the windows socket API with `WSAStartup()`
+2. Creating a socket with `socket()`
+3. Setting up the server `sockaddr` struct member (`sin_family`, `sin_addr.s_addr`, `sin_port`)
    
 ### The Server Specific Phases :
-- It will bind the server port and server ip address with `bind()` function
+- Binding the server port and server ip address with `bind()` function
 - `listen()`
 - `accept()`
 - `send()` greeting to the client
