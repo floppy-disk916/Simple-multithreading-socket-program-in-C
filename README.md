@@ -26,6 +26,6 @@ I learned a lot about basic windows socket and basic threading from this small p
 6. `WaitforSingleObject()` for each thread to wait each until it's over
 
 ### The Cleanup Phases:
-7. `CloseHandle()` each of the thread
-8. `closesocket()` each of the socket
+7. `CloseHandle()` each thread
+8. `closesocket()` each socket
 9. `WSACleanup()` to prevent resource leak
