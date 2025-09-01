@@ -6,7 +6,7 @@ Here's my simple windows API, multithreading socket program in C.
 It's my first few moments of trying socket and threading with windows.h in C.
 I learned a lot about basic windows socket and basic threading from this small project.
 
-### Three First General Phases :
+### Three General Setup Phases :
 1. Setting up the windows socket API with `WSAStartup()`
 2. Creating a socket with `socket()`
 3. Setting up the server `sockaddr` struct member (`sin_family`, `sin_addr.s_addr`, `sin_port`)
