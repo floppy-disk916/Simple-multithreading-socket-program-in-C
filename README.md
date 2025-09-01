@@ -13,13 +13,13 @@ Not a production grade, though
 3. It will setup the server `sockaddr` struct member (`sin_family`, `sin_addr.s_addr`, `sin_port`)
    
 ### The Server Specific Phases :
-a. It will bind the server port and server ip address with `bind()` function
-b. `listen()`
-c. `accept()`
-d. `send()` greeting to the client
+- It will bind the server port and server ip address with `bind()` function
+- `listen()`
+- `accept()`
+- `send()` greeting to the client
 
 ### The Client Specific Phases:
-a. `connect()`
+- `connect()`
 
 ### The MultiThreading Phases:
 4. `CreateThread()` for `SendThread()`
