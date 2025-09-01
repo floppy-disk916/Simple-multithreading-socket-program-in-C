@@ -26,7 +26,7 @@ Not a production grade, though
 5. `CreateThread()` for `ReceiveThread()`
 6. `WaitforSingleObject()` for each thread to wait each until it's over
 
-###The Cleanup Phases:
+### The Cleanup Phases:
 7. `CloseHandle()` each of the thread
 8. `closesocket()` each of the socket
 9. `WSACleanup()` to prevent resource leak
